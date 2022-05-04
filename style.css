@@ -1,0 +1,144 @@
+body {
+    max-width: 90%;
+    margin: 0 auto; 
+    background: -webkit-linear-gradient(-163deg, rgb(70, 107, 141), rgb(255, 255, 255));
+    background: linear-gradient(-163deg, rgb(70, 107, 141), rgb(255, 255, 255));
+    /*background-image: url('chinese.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 0 25% 0 25%;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    font-size:50px;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: underline;
+}
+
+.blockimg {
+    display: block;
+    height: 600px;
+}
+.mainimg {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.floating {
+    float: right;
+    width: 40%;
+    padding-top: 150px;
+}
+
+.mainsection {
+    display: block;
+    float: none;
+}
+h2 {
+    font-size:24px;
+    text-decoration: underline;
+    font-weight:bold;
+    padding: 20px 0 10px 0;
+}
+img {
+    max-width: 100%;
+}
+
+.captionimg {
+    text-align: right;
+}
+
+li {
+    padding: 20px 0 0 10px;
+}
+q {
+    font-size:160%;
+    display: block;
+    width:50%;
+    padding: 30px;
+    margin: 40px auto;
+    background-color: rgb(211, 211, 211);
+    border-left: 3px solid rgb(82, 82, 82);
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    margin: 5px 20px 20px 0;
+}
+
+.watts {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.village {
+    border-left: 3px solid rgb(255, 0, 0);
+}
+
+.farmer {
+    border-left: 3px solid rgb(9, 255, 0);
+}
+
+/*
+header :nth-child(1n) {
+    background-color: rgb(251, 255, 0);
+  }
+*/
+
+.good {
+    color:green;
+    text-transform: capitalize;
+}
+
+.bad {
+    color:rgb(255, 0, 0);
+    text-transform: capitalize;
+}
+
+th {
+    background-color: rgb(211, 211, 211);
+    border : 1px solid rgb(180, 180, 180);
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border : 1px solid rgb(180, 180, 180);
+    padding: 10px;
+    text-align: left;
+}
+
+table {
+    border : 1px solid rgb(180, 180, 180);
+    width:50%;
+    padding: 30px;
+    margin: 40px auto;
+}
+
+p:nth-child(1) {
+    font-weight:bold;
+}
+
+.fixed-content {
+    bottom:0;
+    right:0;
+    position:fixed;
+    width:150px;
+    height:40px;
+    background-color: rgb(138, 24, 24);
+    color:white;
+    font-size:20px;
+    border-radius: 10px 10px 0 0;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
